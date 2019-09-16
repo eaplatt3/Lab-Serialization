@@ -44,6 +44,12 @@ namespace Lab_Serialization
             {
                 m_State = value;
             }
+
+        }
+            public override string ToString()
+        {
+            return City + " " + State;
         }
     }
+    
 }
